@@ -1,0 +1,148 @@
+html{
+	height: 100%;
+}
+body{
+	position: relative;
+	min-height: 100%;
+}
+
+.hidden{
+	display: none;
+}
+
+/*navbar css*/
+.search-btn{
+	background: inherit!important;
+	border: none;
+	transition: .4s;
+}
+
+/*navbar css end*/
+
+
+.btn-cart-nav .btn-btn-danger{
+	height: 40px;
+}
+
+a.nav-link.btn-cart-nav {
+    background: inherit!important;
+}
+
+/*products design*/
+.product-show-bg{
+background: gray;
+}
+.product-show-img{
+	height: 400px;
+	width: 200px;
+}
+
+
+/*products design ends*/
+.bg-light {
+    background-color: #c5961cba!important;
+}
+
+
+.logo-img{
+	height: 50px;
+	width: 70px;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+.margin-top-20{
+	margin-top:20px;
+}
+.feature-img{
+	max-height: 200px;
+}
+
+
+.child-rows{
+	padding-left: 20px;
+	border-left: 1px solid #dfdfdf;
+	background: #FFF;
+}
+.child-rows a.list-group-item{
+	border: 0px!important;
+}
+
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #c5961cba!important;
+    border-color: #007bff;
+    border-radius: 0px!important;
+}
+
+/*fotter style*/
+.footer-class{
+    margin-top: 20px;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+
+}
+
+/*bootstrap override css*/
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: rgb(239 47 7 / 50%);
+}
+
+.carousel-caption h5 {
+    /* font-size: medium; */
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    border-radius: 10px;
+    color: 3px ,solid ,black;
+    margin-right: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    border-radius: 10px;
+    background: white;
+    color: black;
+    margin-right: 5px;
+}
+
+/*admin panel style*/
+
+
+.container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+    width: 100%;
+    padding-right: 12.5px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*admin panel style end*/
+
+
+/*product style*/
+.product-card{
+    height: 350px;
+}
+
+.product-card .product-image{
+    padding-top: 5px;
+    width: 100%;
+    height: 200px;
+} 
